@@ -1,0 +1,27 @@
+# Write code below 💖
+
+def welcome():
+  print( " Hello, Welcome to Our Restaurant")
+
+def get_item(item):
+  welcome_menu = [ 'Cheeseburger', 'Fries', 'Soda', 'Ice Cream', 'Cookie']
+  if item == 1:
+    print(" You selected : ", welcome_menu[item-1])
+  elif item ==2:
+    print(" You Selected : ", welcome_menu[item-1])
+  elif item ==3:
+    print(" You selected : ", welcome_menu[item-1])
+  elif item ==4:
+    print(" You selected : ", welcome_menu[item-1])
+  elif item ==5:
+    print(" You selected : ", welcome_menu[item-1])
+  else:
+    print(' Choose between (1-5)')
+
+    
+
+
+
+user_selection = int(input( " 1 for Cheeseburger, 2 for Fries, 3 for Soda, 4 for Ice cream, 5 for cookie: "))
+welcome()
+get_item(user_selection)
