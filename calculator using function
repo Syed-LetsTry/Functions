@@ -1,0 +1,28 @@
+
+
+""" Calculator using Functions """"
+
+
+
+def add(a,b):
+  return a+b
+
+def subtract(a,b):
+  return a-b
+
+def multiply(a,b):
+  return a*b
+
+def divide(a,b):
+  return a/b
+
+def exp(a,b):
+  return a**b
+
+print(add(4,5))
+print(subtract(5,4))
+print(multiply(4,5))
+print(divide(5,4))
+print(exp(3,3))
+
+
